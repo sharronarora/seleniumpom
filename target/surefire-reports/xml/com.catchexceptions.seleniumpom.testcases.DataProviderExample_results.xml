@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+  
+  
+            <testcase name="verifyData1" time="0.000" classname="com.catchexceptions.seleniumpom.testcases.DataProviderExample" />
+                <testcase name="verifyData1" time="0.000" classname="com.catchexceptions.seleniumpom.testcases.DataProviderExample" />
+                <testcase name="verifyData1" time="0.000" classname="com.catchexceptions.seleniumpom.testcases.DataProviderExample" />
+      
+</testsuite>

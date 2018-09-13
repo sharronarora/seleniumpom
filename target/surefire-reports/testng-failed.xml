@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.catchexceptions.seleniumpom.testcases.SoftAssertionExample">
+        <methods>
+          <include name="softAssert"/>
+          <include name="hardAssert"/>
+        </methods>
+      </class> <!-- com.catchexceptions.seleniumpom.testcases.SoftAssertionExample -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
