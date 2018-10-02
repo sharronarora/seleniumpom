@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.catchexceptions.seleniumpom.testcases.GoogleHomePageTest">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.catchexceptions.seleniumpom.testcases.GoogleHomePageTest -->
+      <class name="com.catchexceptions.seleniumpom.testcases.ParameterizedTest">
+        <methods>
+          <include name="parameterizedTest"/>
+        </methods>
+      </class> <!-- com.catchexceptions.seleniumpom.testcases.ParameterizedTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

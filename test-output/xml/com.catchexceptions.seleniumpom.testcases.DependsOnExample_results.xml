@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.029">
+  <properties />
+  
+  
+            <testcase name="method1" time="0.014" classname="com.catchexceptions.seleniumpom.testcases.DependsOnExample" />
+                <testcase name="method2" time="0.015" classname="com.catchexceptions.seleniumpom.testcases.DependsOnExample" />
+      
+</testsuite>

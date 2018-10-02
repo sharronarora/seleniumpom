@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Regression(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.catchexceptions.seleniumpom.testcases.GoogleHomePageTest">
+        <methods>
+          <include name="testGoogleSearch"/>
+          <include name="testGoogleSearchAnnotated"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.catchexceptions.seleniumpom.testcases.GoogleHomePageTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

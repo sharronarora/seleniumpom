@@ -1,0 +1,26 @@
+<suite name="Suite" parallel="false">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="Listeners.MyListener" />
+	<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+	</listeners>
+
+	<parameter name="browser" value="chrome" />
+	<test name="Regression">
+
+		<classes>
+
+			<class name="com.catchexceptions.seleniumpom.testcases.DependsOnExample" />
+
+
+			<class
+				name="com.catchexceptions.seleniumpom.testcases.SoftAssertionExample" />
+
+			<class name="com.catchexceptions.seleniumpom.testcases.ParameterizedTest" />
+
+			<class
+				name="com.catchexceptions.seleniumpom.testcases.DataProviderExample" />
+		</classes>
+	</test>
+</suite>
