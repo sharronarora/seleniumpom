@@ -2,16 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <parameter name="browser" value="firefox"/>
+  <parameter name="CustomerID" value="123"/>
   <test name="Regression(failed)">
     <parameter name="browser" value="firefox"/>
+    <parameter name="CustomerID" value="123"/>
     <classes>
-      <class name="com.catchexceptions.seleniumpom.testcases.GoogleHomePageTest">
+      <class name="com.catchexceptions.seleniumpom.HandlingPopUps.HandlingPopUps">
         <methods>
-          <include name="testGoogleSearch"/>
-          <include name="testGoogleSearchAnnotated"/>
-          <include name="beforeMethod"/>
+          <include name="createConnection"/>
+          <include name="RedirectToURL"/>
+          <include name="DeleteCustomer"/>
         </methods>
-      </class> <!-- com.catchexceptions.seleniumpom.testcases.GoogleHomePageTest -->
+      </class> <!-- com.catchexceptions.seleniumpom.HandlingPopUps.HandlingPopUps -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,6 +1,7 @@
 package com.catchexceptions.seleniumpom.testcases;
 import org.testng.Assert;
 import org.testng.SkipException;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -15,13 +16,13 @@ public class SoftAssertionExample {
 			softAssertion.assertAll();
 		}
 		
-		@Test
-		public void hardAssert(){
+		@BeforeMethod
+		public void hardAssert() {
 			
 			System.out.println("hardAssert Method Was Started");
 			Assert.assertTrue(true);
 			System.out.println("hardAssert Method Was Executed");
-			throw new SkipException("message");
+			//throw new SkipException("Testing skip.");
 		}
 		
 		@Parameters("browser")
