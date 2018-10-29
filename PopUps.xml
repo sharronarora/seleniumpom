@@ -1,15 +1,10 @@
 <suite name="Suite" parallel="false">
-
-	
 	<test name="Regression">
-<parameter name="browser" value="firefox" />
-	<parameter name="CustomerID" value="123" />
-	
-	
+		<parameter name="browser" value="chrome" />
+		<parameter name="CustomerID" value="123" />
 		<classes>
-
-			<class name="com.catchexceptions.seleniumpom.HandlingPopUps.HandlingPopUps" />
-
+			<class
+				name="com.catchexceptions.seleniumpom.HandlingPopUps.HandlingPopUps" />
 		</classes>
 	</test>
 </suite>
